@@ -182,7 +182,13 @@ gnn_model.load_state_dict(_best_state_gnn)
 log(f"  GNN best val RMSE={_best_rmse_gnn:.4f}")
 
 log("[5Method] BiLSTM 학습 (독립 교차검증용)...")
-aug_df = pd.read_pickle(f"{RESULTS_DIR}/augmented_full.pkl")
+aug_path = os.path.join(RESULTS_DIR, "augmented_full.pkl")
+if not os.path.exists(aug_path):
+    from data_utils import build_augmented_dataset
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    aug_df = build_augmented_dataset(df, n_augment=50, seed=42, save_path=aug_path)
+else:
+    aug_df = pd.read_pickle(aug_path)
 train_ids = set(train_df["mol_id"])
 val_ids   = set(val_df["mol_id"])
 train_aug = aug_df[aug_df["mol_id"].isin(train_ids)].reset_index(drop=True)

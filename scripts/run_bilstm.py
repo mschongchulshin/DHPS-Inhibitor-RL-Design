@@ -32,7 +32,13 @@ print("[BiLSTM-31] 데이터 로드...")
 df = load_data()
 df["mol_id"] = df.index
 
-aug_df = pd.read_pickle(f"{RESULTS_DIR}/augmented_full.pkl")
+aug_path = os.path.join(RESULTS_DIR, "augmented_full.pkl")
+if not os.path.exists(aug_path):
+    from data_utils import build_augmented_dataset
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    aug_df = build_augmented_dataset(df, n_augment=50, seed=42, save_path=aug_path)
+else:
+    aug_df = pd.read_pickle(aug_path)
 
 print("[BiLSTM-31] Best params 로드...")
 study = optuna.load_study(study_name="bilstm_forward",
