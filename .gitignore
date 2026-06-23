@@ -81,7 +81,7 @@ results/weighted_blend*.json
 *.db
 *.ckpt
 *.pkl
-!results/augmented_full.pkl
+results/augmented_full.pkl
 watch_and_restart.sh
 compare_results.py
 build_selfies_dataset.py
