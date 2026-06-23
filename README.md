@@ -6,7 +6,7 @@ Hypusine modification of eIF5A by DHPS is essential for the replication of a bro
 
 ## Dataset
 
-`data/dataset.csv` — 1,920 DHPS fragment compounds with MM-GBSA binding energies (kcal/mol), docked using Glide XP (Schrödinger Suite 2025-4) against human DHPS (PDB: 6PGR).
+`data/dataset.csv` contains 1,920 DHPS fragment compounds with MM-GBSA binding energies (kcal/mol).
 
 ## Requirements
 
