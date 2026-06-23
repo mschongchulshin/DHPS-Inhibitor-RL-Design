@@ -35,7 +35,7 @@ Results are saved to `results/`.
 
 ## Citation
 
-Shin et al., *AI-guided De Novo Design of DHPS Inhibitors*, Journal of Cheminformatics, 2026.
+Shin et al., *AI-guided De Novo Design of DHPS Inhibitors*, Journal of Cheminformatics, 2026. (under review)
 
 Contact: saekomi5@korea.ac.kr
 
