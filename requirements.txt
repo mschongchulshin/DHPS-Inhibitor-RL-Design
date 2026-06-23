@@ -1,0 +1,15 @@
+torch>=2.0.0
+transformers>=4.35.0
+datasets
+tokenizers
+sentencepiece
+rdkit-pypi
+optuna
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+tqdm
+accelerate
