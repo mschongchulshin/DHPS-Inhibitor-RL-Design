@@ -37,4 +37,4 @@ Results are saved to `results/`.
 
 Shin et al., *AI-guided De Novo Design of DHPS Inhibitors*, Journal of Cheminformatics, 2026.
 
-Contact: saekomi5@korea.ac.kr or chahong@korea.ac.kr
+Contact: saekomi5@korea.ac.kr
