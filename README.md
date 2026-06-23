@@ -41,4 +41,4 @@ Contact: saekomi5@korea.ac.kr
 
 ## Code Availability
 
-The full code for RL-Design and the OOF Stacking Ensemble is currently under patent application and is not publicly available. The code will be made available upon reasonable request.
+<ins>**The full code for RL-Design and the OOF Stacking Ensemble is currently under patent application**</ins> and is not publicly available. The code will be made available upon reasonable request.
