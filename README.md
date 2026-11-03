@@ -33,7 +33,7 @@ python run_reverse.py      # GA, BO, ScaffoldHop, Fragment, Retrieval
 
 ## Citation
 
-Shin et al., *AI-guided De Novo Design of DHPS Inhibitors*, Journal of Cheminformatics, 2026. (under review)
+Shin et al., *AI-guided De Novo Design of DHPS Inhibitors*, Journal of Cheminformatics, 2026. 
 
 Contact: saekomi5@korea.ac.kr
 
